@@ -1,8 +1,10 @@
 import React from 'react';
 
-import * as S from './styles'
+import * as S from './styles';
 
-import TraficoLogo from '../../assets/TraficoLogo.svg'
+import TraficoLogo from '../../assets/TraficoLogo.svg';
+
+import PrimaryButton from '../PrimaryButton';
 
 const Header = () => {
   return (
@@ -13,6 +15,7 @@ const Header = () => {
         <a href="/">about</a>
         <a href="/">how to</a>
         <a href="/">faqs</a>
+        <PrimaryButton width={158} height={60} textContent="contact us"/>
       </S.HeaderLinks>
 
     </S.StyledUl>
