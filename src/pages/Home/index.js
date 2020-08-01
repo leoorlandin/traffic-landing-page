@@ -5,11 +5,12 @@ import * as S from './styles';
 import Scene from '../../assets/Scene.svg';
 
 import PrimaryButton from '../../components/PrimaryButton';
-
+import Header from '../../components/Header';
 
 const Home = () => {
   return (
     <>
+      <Header />
       <S.MainBanner>
         <img src={Scene} alt="background banner" />
         <S.BannerContent>
