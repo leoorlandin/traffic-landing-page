@@ -7,6 +7,8 @@ export const PrimaryButton = styled.button`
   height: ${({ height }) => `${height}px`};
   border-radius: 5px;
   border: none;
-  font-weight: 500;
+  font-weight: bold;
+  font-family: 'Rubik';
   text-transform: uppercase;
-`;
+  letter-spacing: 0.05em;
+  `;

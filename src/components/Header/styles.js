@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 export const StyledUl = styled.ul`
 
-  min-width: 100%;
-  background: black;
+  min-width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -13,14 +12,16 @@ export const StyledUl = styled.ul`
 export const HeaderLinks = styled.div`
     display: flex;
     justify-content: space-around;
-    margin-left: 245px;
+    align-items: center;
 
   & a{
     color: #fff;
     text-transform: uppercase;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
+    font-family: 'Rubik';
+    letter-spacing: 0.05em;
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 150px;
   }
 `;

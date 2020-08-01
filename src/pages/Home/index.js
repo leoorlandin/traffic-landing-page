@@ -10,8 +10,8 @@ import Header from '../../components/Header';
 const Home = () => {
   return (
     <>
-      <Header />
       <S.MainBanner>
+      <Header />
         <img src={Scene} alt="background banner" />
         <S.BannerContent>
           <h1>Elo</h1>

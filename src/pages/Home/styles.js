@@ -3,9 +3,12 @@ import styled from 'styled-components';
 export const MainBanner = styled.div`
   min-height: auto;
 
-  & img {
-  position: sticky;
+
+  ul {
+    position: absolute;
+    top: 40px;
   }
+
 `;
 
 
