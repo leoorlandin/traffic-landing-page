@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
+
 export const StyledUl = styled.ul`
 
   min-width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
+
 `;
 
 export const HeaderLinks = styled.div`

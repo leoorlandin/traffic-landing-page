@@ -2,19 +2,18 @@ import React from 'react';
 
 import * as S from './styles';
 
-import Scene from '../../assets/Scene.svg';
+import PrimaryButton from '../../components/PrimaryButton'
 
-import PrimaryButton from '../../components/PrimaryButton';
+// import PrimaryButton from '../../components/PrimaryButton';
 import Header from '../../components/Header';
 
 const Home = () => {
   return (
     <>
       <S.MainBanner>
-      <Header />
-        <img src={Scene} alt="background banner" />
+        <Header />
         <S.BannerContent>
-          <h1>Elo</h1>
+          <h1>Your awesome traffic permit consultant.</h1>
           <PrimaryButton width={220} height={60} textContent="GET STARTED" ButtonAsset="arrow_right_alt"></PrimaryButton>
         </S.BannerContent>
       </S.MainBanner>

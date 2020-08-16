@@ -1,36 +1,36 @@
 import styled from 'styled-components';
 
+import Scene from '../../assets/Scene.svg';
+
+
 export const MainBanner = styled.div`
-  min-height: auto;
-
-
-  ul {
-    position: absolute;
-    top: 40px;
-  }
-
+  background-image: url(${Scene});
+  height: 1200px;
+  background-repeat: no-repeat;
 `;
 
 
 export const BannerContent = styled.div`
 
-  min-height: auto;
   display: flex;
-  position: absolute;
+  flex-direction: column;
+  margin-left: 240px;
+  margin-top: 130px;
 
-h1 {
-  color: green;
-  font-size: 60px;
-}
-
-button {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  & i {
-    font-size: 46px;
+  h1 {
+    font-family: DM Serif Display;
+    font-weight: normal;
+    line-height: 100%;
+    font-size: 100px;
+    color: #fff;
+    max-width: 740px;
+    margin-bottom: 60px;
   }
-}
+
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+  }
 `;
