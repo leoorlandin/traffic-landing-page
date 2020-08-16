@@ -15,7 +15,7 @@ const Home = () => {
         <img src={Scene} alt="background banner" />
         <S.BannerContent>
           <h1>Elo</h1>
-          <PrimaryButton width={220} height={60} textContent="GET STARTED"></PrimaryButton>
+          <PrimaryButton width={220} height={60} textContent="GET STARTED" ButtonAsset="arrow_right_alt"></PrimaryButton>
         </S.BannerContent>
       </S.MainBanner>
     </>
