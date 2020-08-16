@@ -19,13 +19,18 @@ export const BannerContent = styled.div`
   position: absolute;
 
 h1 {
-  color: #fff;
+  color: green;
   font-size: 60px;
 }
 
 button {
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  & i {
+    font-size: 46px;
+  }
 }
-
-
 `;
