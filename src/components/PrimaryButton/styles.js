@@ -11,4 +11,9 @@ export const PrimaryButton = styled.button`
   font-family: 'Rubik';
   text-transform: uppercase;
   letter-spacing: 0.05em;
+
+
+  &:hover{
+    opacity: 0.9;
+  }
   `;

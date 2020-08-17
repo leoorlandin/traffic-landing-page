@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const StyledUl = styled.ul`
 
   padding: 50px 0 0 240px;
@@ -13,7 +12,6 @@ export const StyledUl = styled.ul`
 
 export const HeaderLinks = styled.div`
     display: flex;
-    justify-content: space-around;
     align-items: center;
 
   & a{
@@ -24,6 +22,10 @@ export const HeaderLinks = styled.div`
     font-family: 'Rubik';
     letter-spacing: 0.05em;
     text-decoration: none;
-    margin-left: 150px;
+    margin-right: 80px;
+  }
+
+  & :nth-child(3){
+    margin-right: 110px;
   }
 `;
