@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledUl = styled.ul`
 
-  padding: 50px 0 0 240px;
+  padding: 40px 0 0 240px;
   max-width: 85%;
   display: flex;
   align-items: center;

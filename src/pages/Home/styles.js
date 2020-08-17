@@ -10,7 +10,7 @@ export const MainBanner = styled.div`
 `;
 
 
-export const BannerContent = styled.div`
+export const BannerSection = styled.div`
 
   display: flex;
   flex-direction: column;
@@ -37,4 +37,11 @@ export const BannerContent = styled.div`
   & button i {
     font-size: 40px;
   }
+`;
+
+
+export const AboutSection = styled.div`
+`;
+
+export const AboutTexts = styled.div`
 `;
