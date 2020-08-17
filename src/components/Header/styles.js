@@ -3,10 +3,11 @@ import styled from 'styled-components';
 
 export const StyledUl = styled.ul`
 
-  min-width: 90%;
+  padding: 50px 0 0 240px;
+  max-width: 85%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 
 `;
 

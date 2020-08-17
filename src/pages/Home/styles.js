@@ -33,4 +33,8 @@ export const BannerContent = styled.div`
     justify-content: space-around;
     font-size: 16px;
   }
+
+  & button i {
+    font-size: 40px;
+  }
 `;
