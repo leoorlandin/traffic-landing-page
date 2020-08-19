@@ -84,5 +84,28 @@ export const AboutTexts = styled.div`
 `;
 
 export const HowToSecton = styled.div`
+  display: flex;
+  margin: 0 230px 0 130px;
+  align-items: center;
+  justify-content: space-between;
+`;
 
+export const HowToTexts = styled.div`
+  h2 {
+    color: ${PrimaryColor};
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+  }
+
+  p {
+    max-width: 470px;
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 40px;
+    color: ${TextBodyColor};
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
 `;

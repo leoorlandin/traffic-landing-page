@@ -27,12 +27,18 @@ const Home = () => {
           <p>How do you do when you need to obtain
           a commercial traffic permit for freight transport to your business?</p>
         </S.AboutTexts>
-        <img src={Illustration} alt="About us section Illustration"/>
+        <img src={Illustration} alt="About us section Illustration" />
       </S.AboutSection>
 
       <S.HowToSecton>
-        <img src={HowToIllustration} alt="Illustration of section how to"/>
+        <img src={HowToIllustration} alt="Illustration of section how to" />
+
+        <S.HowToTexts>
+          <h2>how to apply</h2>
+          <p>When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.</p>
+        </S.HowToTexts>
       </S.HowToSecton>
+
     </>
   );
 };
