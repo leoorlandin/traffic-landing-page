@@ -8,6 +8,7 @@ import Header from '../../components/Header';
 
 import Illustration from '../../assets/Illustration.svg';
 import HowToIllustration from '../../assets/HowToIllustration.svg';
+import FaqIllustration from '../../assets/FaqIllustration.svg';
 
 const Home = () => {
   return (
@@ -38,6 +39,18 @@ const Home = () => {
           <p>When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.</p>
         </S.HowToTexts>
       </S.HowToSecton>
+
+      <S.FaqSection>
+        <S.FaqBanner>
+          <S.FaqBannerTexts>
+            <h1>faq</h1>
+            <h2>Questions and Answers on Professional Traffic Permits:</h2>
+          </S.FaqBannerTexts>
+
+          <img src={FaqIllustration} alt="FAQ seciton illustration" />
+        </S.FaqBanner>
+
+      </S.FaqSection>
 
     </>
   );

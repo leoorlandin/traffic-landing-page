@@ -109,3 +109,30 @@ export const HowToTexts = styled.div`
     margin-bottom: 100px;
   }
 `;
+
+export const FaqSection = styled.div`
+  height: 1500px;
+  background: #FDEDE8;
+  width: 1170px;
+  border-radius: 20% 0 0;
+  position: relative;
+  left: 413px;
+`;
+
+export const FaqBanner = styled.div`
+  display: flex;
+  padding: 50px 130px 50px 0;
+
+  h2 {
+    max-width: 550px;
+    font-family: 'DM Serif Display';
+    font-size: 48px;
+    line-height: 67px;
+    color: ${TextBodyColor};
+    }
+`;
+
+export const FaqBannerTexts = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
