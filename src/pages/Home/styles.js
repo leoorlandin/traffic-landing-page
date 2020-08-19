@@ -6,13 +6,11 @@ const PrimaryColor = "#EE4D47";
 const SecondaryColor = "#FCDDD4";
 const TextBodyColor = "#402B2B";
 
-
 export const MainBanner = styled.div`
   background-image: url(${Scene});
   height: 1200px;
   background-repeat: no-repeat;
 `;
-
 
 export const BannerSection = styled.div`
 
@@ -43,13 +41,12 @@ export const BannerSection = styled.div`
   }
 `;
 
-
 export const AboutSection = styled.div`
   display: flex;
   height: 550;
   align-items: center;
-  justify-content: center;
-  margin-top: 150px;
+  justify-content: space-between;
+  margin: 150px 230px;
 `;
 
 export const AboutTexts = styled.div`
@@ -68,7 +65,7 @@ export const AboutTexts = styled.div`
       line-height: 40px;
       color: ${TextBodyColor};
       margin-top: 50px;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
       
   }
 
@@ -84,4 +81,8 @@ export const AboutTexts = styled.div`
     padding: 15px 50px;
     border-radius: 4px;
   }
+`;
+
+export const HowToSecton = styled.div`
+
 `;

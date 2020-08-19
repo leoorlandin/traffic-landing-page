@@ -6,7 +6,8 @@ import PrimaryButton from '../../components/PrimaryButton'
 
 import Header from '../../components/Header';
 
-import Illustration from '../../assets/Illustration.svg'
+import Illustration from '../../assets/Illustration.svg';
+import HowToIllustration from '../../assets/HowToIllustration.svg';
 
 const Home = () => {
   return (
@@ -28,6 +29,10 @@ const Home = () => {
         </S.AboutTexts>
         <img src={Illustration} alt="About us section Illustration"/>
       </S.AboutSection>
+
+      <S.HowToSecton>
+        <img src={HowToIllustration} alt="Illustration of section how to"/>
+      </S.HowToSecton>
     </>
   );
 };
