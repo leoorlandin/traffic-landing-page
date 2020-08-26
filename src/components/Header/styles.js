@@ -5,13 +5,14 @@ export const StyledUl = styled.ul`
   padding: 40px 240px 0 240px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
 `;
 
 export const HeaderLinks = styled.div`
     display: flex;
     align-items: center;
+    margin-left: 300px;
 
   & a{
     color: #fff;
