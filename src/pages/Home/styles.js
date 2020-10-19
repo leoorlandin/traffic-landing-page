@@ -111,28 +111,48 @@ export const HowToTexts = styled.div`
 `;
 
 export const FaqSection = styled.div`
-  height: 1500px;
+  display: flex;
+  /* padding: 50px 130px 50px 0; */
   background: #FDEDE8;
   width: 1170px;
+  height: 1500px;
   border-radius: 20% 0 0;
   position: relative;
-  left: 413px;
+  margin-left: auto;
+
+  justify-content: center;
 `;
 
 export const FaqBanner = styled.div`
   display: flex;
-  padding: 50px 130px 50px 0;
+  margin-right: 170px;
+  max-height: 700px;
+
+  align-items: center;
+
+  img {
+    max-height: 500px;
+  }
+
+`;
+
+export const FaqBannerTexts = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    color: ${PrimaryColor};
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+  }
 
   h2 {
-    max-width: 550px;
+    width: 550px;
     font-family: 'DM Serif Display';
     font-size: 48px;
     line-height: 67px;
     color: ${TextBodyColor};
     }
-`;
-
-export const FaqBannerTexts = styled.div`
-  display: flex;
-  flex-direction: row;
 `;
