@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import Scene from '../../assets/Scene.svg';
+import Rectangle from '../../assets/Rectangle.svg';
 
 const PrimaryColor = "#EE4D47";
 const SecondaryColor = "#FCDDD4";
@@ -110,16 +111,15 @@ export const HowToTexts = styled.div`
   }
 `;
 
+
 export const FaqSection = styled.div`
   display: flex;
   flex-direction: column;
-  background: #FDEDE8;
-  max-width: 1270px;
+  background: url(${Rectangle}) no-repeat right;
+  width: 1370px;
   height: 1500px;
-  border-radius: 20% 0 0;
-  position: relative;
   margin-left: auto;
-  justify-content: center;
+  justify-content: space-around;
 `;
 
 export const FaqBanner = styled.div`

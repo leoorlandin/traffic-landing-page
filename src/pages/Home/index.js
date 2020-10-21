@@ -41,21 +41,22 @@ const Home = () => {
         </S.HowToTexts>
       </S.HowToSecton>
 
-      <S.FaqSection>
-        <S.FaqBanner>
-          <S.FaqBannerTexts>
-            <h1>faq</h1>
-            <h2>Questions and Answers on Professional Traffic Permits:</h2>
-          </S.FaqBannerTexts>
 
-          <img src={FaqIllustration} alt="FAQ seciton illustration" />
-        </S.FaqBanner>
+        <S.FaqSection>
+          <S.FaqBanner>
+            <S.FaqBannerTexts>
+              <h1>faq</h1>
+              <h2>Questions and Answers on Professional Traffic Permits:</h2>
+            </S.FaqBannerTexts>
 
-        <S.FaqCards>
-          <FaqCard textContent="What is a professional traffic permit?"/>
-        </S.FaqCards>
+            <img src={FaqIllustration} alt="FAQ seciton illustration" />
+          </S.FaqBanner>
 
-      </S.FaqSection>
+          <S.FaqCards>
+            <FaqCard textContent="What is a professional traffic permit?" />
+          </S.FaqCards>
+
+        </S.FaqSection>
 
     </>
   );
