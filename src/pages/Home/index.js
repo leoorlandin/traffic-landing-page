@@ -2,9 +2,10 @@ import React from 'react';
 
 import * as S from './styles';
 
-import PrimaryButton from '../../components/PrimaryButton'
-
 import Header from '../../components/Header';
+import PrimaryButton from '../../components/PrimaryButton';
+import FaqCard from '../../components/FaqCard';
+
 
 import Illustration from '../../assets/Illustration.svg';
 import HowToIllustration from '../../assets/HowToIllustration.svg';
@@ -17,7 +18,7 @@ const Home = () => {
         <Header />
         <S.BannerSection>
           <h1>Your awesome traffic permit consultant.</h1>
-          <PrimaryButton width={220} height={60} textContent="GET STARTED" ButtonAsset="arrow_right_alt"></PrimaryButton>
+          <PrimaryButton width={220} height={60} textContent="GET STARTED" ButtonAsset="arrow_right_alt" />
         </S.BannerSection>
       </S.MainBanner>
 
@@ -49,6 +50,10 @@ const Home = () => {
 
           <img src={FaqIllustration} alt="FAQ seciton illustration" />
         </S.FaqBanner>
+
+        <S.FaqCards>
+          <FaqCard textContent="What is a professional traffic permit?"/>
+        </S.FaqCards>
 
       </S.FaqSection>
 

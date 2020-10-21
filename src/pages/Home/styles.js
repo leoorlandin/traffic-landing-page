@@ -112,20 +112,18 @@ export const HowToTexts = styled.div`
 
 export const FaqSection = styled.div`
   display: flex;
-  /* padding: 50px 130px 50px 0; */
+  flex-direction: column;
   background: #FDEDE8;
-  width: 1170px;
+  max-width: 1270px;
   height: 1500px;
   border-radius: 20% 0 0;
   position: relative;
   margin-left: auto;
-
   justify-content: center;
 `;
 
 export const FaqBanner = styled.div`
   display: flex;
-  margin-right: 170px;
   max-height: 700px;
 
   align-items: center;
@@ -155,4 +153,8 @@ export const FaqBannerTexts = styled.div`
     line-height: 67px;
     color: ${TextBodyColor};
     }
+`;
+
+export const FaqCards = styled.div`
+  display: flex;
 `;
