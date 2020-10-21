@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import * as S from './styles';
 
-const FaqCard = ({ textContent }) => {
+const FaqCard = ({ textContent, cardDescription }) => {
 
   const [openCard, setOpenCard] = useState('add');
 
@@ -13,14 +13,29 @@ const FaqCard = ({ textContent }) => {
 
 
   return (
+
     <S.FaqCard>
-      {textContent}
-      <i
-        className="material-icons"
-        onClick={handleOpenCardButton}
-      >
-        {openCard}
-      </i>
+      <S.FaqContent>
+        {textContent}
+        <i
+          className="material-icons"
+          onClick={handleOpenCardButton}
+        >
+          {openCard}
+        </i>
+      </S.FaqContent>
+
+      {
+        openCard === 'remove' ?
+          <S.cardDescription>
+            {cardDescription}
+          </S.cardDescription>
+          :
+          <></>
+      }
+
+
+
     </S.FaqCard>
   );
 };
@@ -29,5 +44,6 @@ export default FaqCard;
 
 FaqCard.propTypes = {
   textContent: PropTypes.string.isRequired,
+  cardDescription: PropTypes.string.isRequired,
 };
 

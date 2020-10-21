@@ -53,7 +53,8 @@ const Home = () => {
           </S.FaqBanner>
 
           <S.FaqCards>
-            <FaqCard textContent="What is a professional traffic permit?" />
+            <FaqCard textContent="What is a professional traffic permit?" cardDescription="this is my card description"/>
+            <FaqCard textContent="What is a professional traffic permit?" cardDescription="this is my card description"/>
           </S.FaqCards>
 
         </S.FaqSection>

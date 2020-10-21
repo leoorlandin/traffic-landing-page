@@ -156,5 +156,7 @@ export const FaqBannerTexts = styled.div`
 `;
 
 export const FaqCards = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-gap: 20px
 `;
