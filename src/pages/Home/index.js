@@ -11,6 +11,10 @@ import Illustration from '../../assets/Illustration.svg';
 import HowToIllustration from '../../assets/HowToIllustration.svg';
 import FaqIllustration from '../../assets/FaqIllustration.svg';
 
+import data from './data';
+
+
+
 const Home = () => {
   return (
     <>
@@ -42,22 +46,25 @@ const Home = () => {
       </S.HowToSecton>
 
 
-        <S.FaqSection>
-          <S.FaqBanner>
-            <S.FaqBannerTexts>
-              <h1>faq</h1>
-              <h2>Questions and Answers on Professional Traffic Permits:</h2>
-            </S.FaqBannerTexts>
+      <S.FaqSection>
+        <S.FaqBanner>
+          <S.FaqBannerTexts>
+            <h1>faq</h1>
+            <h2>Questions and Answers on Professional Traffic Permits:</h2>
+          </S.FaqBannerTexts>
 
-            <img src={FaqIllustration} alt="FAQ seciton illustration" />
-          </S.FaqBanner>
+          <img src={FaqIllustration} alt="FAQ seciton illustration" />
+        </S.FaqBanner>
 
-          <S.FaqCards>
-            <FaqCard textContent="What is a professional traffic permit?" cardDescription="this is my card description"/>
-            <FaqCard textContent="What is a professional traffic permit?" cardDescription="this is my card description"/>
-          </S.FaqCards>
+        <S.FaqCards>
+          {
+            data.map(item => (
+              <FaqCard textContent={item.textContent} cardDescription={item.cardDescription}></FaqCard>
+            ))
+          }
+        </S.FaqCards>
 
-        </S.FaqSection>
+      </S.FaqSection>
 
     </>
   );

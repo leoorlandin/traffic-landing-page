@@ -119,7 +119,8 @@ export const FaqSection = styled.div`
   width: 1370px;
   height: 1500px;
   margin-left: auto;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 50px 0;
 `;
 
 export const FaqBanner = styled.div`
@@ -158,5 +159,5 @@ export const FaqBannerTexts = styled.div`
 export const FaqCards = styled.div`
   display: grid;
   grid-template-columns: 550px 550px;
-  grid-gap: 20px
+  grid-gap: 20px;
 `;

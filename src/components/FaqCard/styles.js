@@ -17,6 +17,8 @@ const showAnimation = keyframes`
 export const FaqCard = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: 550px;
+  max-height: 250px;
 `;
 
 export const FaqContent = styled.div`
@@ -27,7 +29,7 @@ export const FaqContent = styled.div`
   justify-content: space-between;
   background: #fff;
   color: #402B2B;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
 
   font-family: Rubik;
@@ -43,10 +45,12 @@ export const FaqContent = styled.div`
 `;
 
 export const cardDescription = styled.div`
+  max-width: 550px;
   display: flex;
   padding: 45px 35px;
   align-items: center;
-  background: linear-gradient(180deg, rgba(253,237,232,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, rgba(252,221,212,1) 20%, rgba(255,255,255,1) 100%);
+  border-radius: 0 0 10px 10px;
 
   font-family: Rubik;
   font-weight: 300;
