@@ -6,14 +6,11 @@ import Header from '../../components/Header';
 import PrimaryButton from '../../components/PrimaryButton';
 import FaqCard from '../../components/FaqCard';
 
-
 import Illustration from '../../assets/Illustration.svg';
 import HowToIllustration from '../../assets/HowToIllustration.svg';
 import FaqIllustration from '../../assets/FaqIllustration.svg';
 
 import data from './data';
-
-
 
 const Home = () => {
   return (
@@ -45,7 +42,6 @@ const Home = () => {
         </S.HowToTexts>
       </S.HowToSecton>
 
-
       <S.FaqSection>
         <S.FaqBanner>
           <S.FaqBannerTexts>
@@ -62,6 +58,13 @@ const Home = () => {
               <FaqCard textContent={item.textContent} cardDescription={item.cardDescription}></FaqCard>
             ))
           }
+          <div></div>
+          <div>
+            <div>
+              <p>LOAD MORE</p>
+              <i className="material-icons"></i>
+            </div>
+          </div>
         </S.FaqCards>
 
       </S.FaqSection>

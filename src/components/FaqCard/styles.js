@@ -1,7 +1,5 @@
 import styled, { keyframes } from 'styled-components';
 
-
-
 const showAnimation = keyframes`
   from {
     opacity: 0;
@@ -58,6 +56,6 @@ export const cardDescription = styled.div`
   line-height: 30px;
   color: #402B2B;
   box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
-  animation: ${showAnimation} .5s linear;
+  animation: ${showAnimation} .5s ease-in-out;
 `;
 

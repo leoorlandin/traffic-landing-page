@@ -8,9 +8,8 @@ const FaqCard = ({ textContent, cardDescription }) => {
   const [openCard, setOpenCard] = useState('add');
 
   const handleOpenCardButton = () => {
-    setOpenCard(openCard === 'add' ? 'remove' : 'add')
+    setOpenCard(openCard === 'add' ? 'remove' : 'add');
   }
-
 
   return (
 
@@ -34,8 +33,6 @@ const FaqCard = ({ textContent, cardDescription }) => {
           <></>
       }
 
-
-
     </S.FaqCard>
   );
 };
@@ -46,4 +43,3 @@ FaqCard.propTypes = {
   textContent: PropTypes.string.isRequired,
   cardDescription: PropTypes.string.isRequired,
 };
-

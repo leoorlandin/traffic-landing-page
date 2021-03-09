@@ -7,13 +7,13 @@ const PrimaryColor = "#EE4D47";
 const SecondaryColor = "#FCDDD4";
 const TextBodyColor = "#402B2B";
 
-export const MainBanner = styled.div`
+export const MainBanner = styled.div `
   background-image: url(${Scene});
   height: 1200px;
   background-repeat: no-repeat;
 `;
 
-export const BannerSection = styled.div`
+export const BannerSection = styled.div `
 
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@ export const BannerSection = styled.div`
   }
 `;
 
-export const AboutSection = styled.div`
+export const AboutSection = styled.div `
   display: flex;
   height: 550;
   align-items: center;
@@ -50,7 +50,7 @@ export const AboutSection = styled.div`
   margin: 150px 230px;
 `;
 
-export const AboutTexts = styled.div`
+export const AboutTexts = styled.div `
   h2 {
     color: ${PrimaryColor};
     text-transform: uppercase;
@@ -84,14 +84,14 @@ export const AboutTexts = styled.div`
   }
 `;
 
-export const HowToSecton = styled.div`
+export const HowToSecton = styled.div `
   display: flex;
   margin: 0 230px 0 130px;
   align-items: center;
   justify-content: space-between;
 `;
 
-export const HowToTexts = styled.div`
+export const HowToTexts = styled.div `
   h2 {
     color: ${PrimaryColor};
     text-transform: uppercase;
@@ -112,18 +112,17 @@ export const HowToTexts = styled.div`
 `;
 
 
-export const FaqSection = styled.div`
+export const FaqSection = styled.div `
   display: flex;
   flex-direction: column;
   background: url(${Rectangle}) no-repeat right;
   width: 1370px;
-  height: 1500px;
   margin-left: auto;
   justify-content: space-between;
   padding: 50px 0;
 `;
 
-export const FaqBanner = styled.div`
+export const FaqBanner = styled.div `
   display: flex;
   max-height: 700px;
 
@@ -135,7 +134,7 @@ export const FaqBanner = styled.div`
 
 `;
 
-export const FaqBannerTexts = styled.div`
+export const FaqBannerTexts = styled.div `
   display: flex;
   flex-direction: column;
 
@@ -156,8 +155,29 @@ export const FaqBannerTexts = styled.div`
     }
 `;
 
-export const FaqCards = styled.div`
+export const FaqCards = styled.div `
   display: grid;
   grid-template-columns: 550px 550px;
   grid-gap: 20px;
+  margin-top: 50px;
+
+  div + div:last-child{
+
+     div{
+      padding: 25px 35px;
+      border-radius: 6px;
+      opacity: .8;
+      background: ${PrimaryColor};
+      display: flex;
+      justify-content: center;
+      color: ${SecondaryColor};
+      font-weight: bold;
+    }
+
+    p {
+      opacity: 1;
+      padding: 4px;
+    }
+    
+  }
 `;
